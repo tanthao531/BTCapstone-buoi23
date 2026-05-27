@@ -19,7 +19,7 @@ fetch('https://69df0839d6de26e1192874ad.mockapi.io/product')
           <p class="card-text">${product.desc}</p>
           <p class="card-text">Price: ${product.price}</p>
           <div class="d-flex gap-2">
-            <a class="btn btn-secondary" href="detail.html?id=${product.id}">Xem chi tiết</a>
+            <a class="btn btn-secondary" href="/customer/detail.html?id=${product.id}">Xem chi tiết</a>
             <button class="btn btn-primary addToCartBtn">Thêm vào giỏ hàng</button>
           </div>
         </div>
@@ -49,7 +49,7 @@ document.getElementById('tatca1').addEventListener('click', function() {
             <p class="card-text">${product.desc}</p>
             <p class="card-text">Price: ${product.price}</p>
             <div class="d-flex gap-2">
-              <a class="btn btn-secondary" href="detail.html?id=${product.id}">Xem chi tiết</a>
+              <a class="btn btn-secondary" href="/customer/detail.html?id=${product.id}">Xem chi tiết</a>
               <button class="btn btn-primary addToCartBtn">Thêm vào giỏ hàng</button>
             </div>
           </div>
@@ -85,7 +85,7 @@ document.getElementById('iphone').addEventListener('click', function() {
             <p class="card-text">${product.desc}</p>
             <p class="card-text">Price: ${product.price}</p>
             <div class="d-flex gap-2">
-              <a class="btn btn-secondary" href="detail.html?id=${product.id}">Xem chi tiết</a>
+              <a class="btn btn-secondary" href="/customer/detail.html?id=${product.id}">Xem chi tiết</a>
               <button class="btn btn-primary addToCartBtn">Thêm vào giỏ hàng</button>
             </div>
           </div>
@@ -117,7 +117,7 @@ document.getElementById('samsung').addEventListener('click', function() {
             <p class="card-text">${product.desc}</p>
             <p class="card-text">Price: ${product.price}</p>
             <div class="d-flex gap-2">
-              <a class="btn btn-secondary" href="detail.html?id=${product.id}">Xem chi tiết</a>
+              <a class="btn btn-secondary" href="/customer/detail.html?id=${product.id}">Xem chi tiết</a>
               <button class="btn btn-primary addToCartBtn">Thêm vào giỏ hàng</button>
             </div>
           </div>
